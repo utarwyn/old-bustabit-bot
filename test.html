@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BustabitBot | Test</title>
+
+</head>
+<body>
+
+	<input type="text" id="input" name="" value="" placeholder="">
+
+
+	<script type="text/javascript">
+		window.addEventListener("load", function() {
+			var input = document.getElementById("input");
+
+			input.value = "test";
+			input.focus();
+
+			var evt = document.createEvent("KeyboardEvent");
+			var initMethod = typeof evt.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
+
+			evt[initMethod]("keypress", true, true, window, 0, 0, 0, 0, 0, "e".charCodeAt(0));
+
+			input.dispatchEvent(evt);
+
+		});
+	</script>
+
+</body>
+</html>

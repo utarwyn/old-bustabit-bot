@@ -1,0 +1,5 @@
+content   bustabitbot                content/
+skin      bustabitbot  classic/1.0   skin/
+locale    bustabitbot  fr            locale/fr/
+
+overlay chrome://browser/content/browser.xul  chrome://bustabitbot/content/BustabitOverlay.xul

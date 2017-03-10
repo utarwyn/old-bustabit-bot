@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<overlay id="BustabitOverlay"
+ xmlns:html="http://www.w3.org/1999/xhtml"
+ xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script src="BustabitOverlay.js"/>
+
+	<menupopup id="menu_FilePopup">
+		<menu id="file_menu">
+			<menuitem name="Super Stream Player"/>
+		</menu>
+	</menupopup>
+</overlay>
