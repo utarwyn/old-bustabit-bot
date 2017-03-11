@@ -17,13 +17,19 @@
 			input.value = "test";
 			input.focus();
 
-			var evt = document.createEvent("KeyboardEvent");
-			var initMethod = typeof evt.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
+			input.addEventListener("keypress", function(evt) {
+				console.log(evt);
+			})
 
-			evt[initMethod]("keypress", true, true, window, 0, 0, 0, 0, 0, "e".charCodeAt(0));
+			setInterval(function() {
+				var evt = document.createEvent("KeyboardEvent");
+				var initMethod = typeof evt.initKeyboardEvent !== 'undefined' ? "initKeyboardEvent" : "initKeyEvent";
 
-			input.dispatchEvent(evt);
+				evt[initMethod]("keypress", true, true, window, 0, 0, 0, 0, 0, "e".charCodeAt(0));
 
+				console.log("dispatch");
+				input.dispatchEvent(evt);
+			}, 1000);
 		});
 	</script>
 
