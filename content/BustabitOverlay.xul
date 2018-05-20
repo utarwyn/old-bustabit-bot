@@ -7,7 +7,7 @@
 
 	<menupopup id="menu_FilePopup">
 		<menu id="file_menu">
-			<menuitem name="Super Stream Player"/>
+			<menuitem name="Mon super menu pas très utile"/>
 		</menu>
 	</menupopup>
 </overlay>

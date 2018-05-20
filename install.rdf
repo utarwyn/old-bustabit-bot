@@ -4,12 +4,12 @@
   xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>bustabitbot@utarwyn.cf</em:id>
+    <em:id>bustabitbot@utarwyn.fr</em:id>
     <em:name>BustabitBot</em:name>
-    <em:description>Je suis là pour faire de la money</em:description>
+    <em:description>Vieux bot d'automatisation d'actions pour le site Bustabit.com</em:description>
     <em:version>0.1</em:version>
     <em:creator>Utarwyn</em:creator>
-    <em:homepageURL>http://utarwyn.cf</em:homepageURL>
+    <em:homepageURL>https://github.com/utarwyn</em:homepageURL>
     <em:type>2</em:type>
 
     <!-- Mozilla Firefox -->
