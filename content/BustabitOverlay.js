@@ -104,8 +104,8 @@ var BustabitBot = {
 
 		betBtn.height = "10px";
 
-		bottomTabs[0].querySelector("a").innerHTML = "Historique";
-		bottomTabs[1].querySelector("a").innerHTML = "Graphique";
+		bottomTabs[0].querySelector("a").innerHTML = "Parties";
+		bottomTabs[1].querySelector("a").innerHTML = "Graph";
 	},
 
 
